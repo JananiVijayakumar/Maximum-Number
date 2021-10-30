@@ -3,7 +3,7 @@ package com.bridgelabzz;
 /**
  * Author : janani vijayakumar
  * date : 30/10/2021
- * Desc : Largest number among 3
+ * Desc : Largest float number among 3
  * **/
 
 import java.util.*;
@@ -21,7 +21,7 @@ public class MaxNum {
     }
 
     public static void main(String args[]) {
-        System.out.printf("Maximum number of (%d,%d,%d) is : %d\n\n", 12, 18, 5, maximum(12, 18, 5)); //print the largest number
+        System.out.printf("Maximum of (%.1f, %.1f , %.1f) is : %.1f\n\n", 16.6, 8.8, 7.7, maximum(16.6, 8.8, 7.7)); //print the largest float number
 
     }
 }
